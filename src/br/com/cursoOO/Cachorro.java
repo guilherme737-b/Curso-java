@@ -6,6 +6,7 @@ public class Cachorro {
     String raça;
 
 
+
     void latir() {
         System.out.println("Au, Au, Au!");
 
