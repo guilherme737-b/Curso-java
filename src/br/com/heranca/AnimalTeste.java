@@ -13,6 +13,17 @@ public class AnimalTeste {
     carijo.dormir();
     System.out.println(carijo);
 
+    Animal generico = new Animal(0,null);
+
+    System.out.println(rex instanceof Cachorro);
+    System.out.println(rex instanceof Animal);
+
+    rex.fazerBarulho();
+    carijo.fazerBarulho();
+    generico.fazerBarulho();
+
+
+
     }
 
 }
