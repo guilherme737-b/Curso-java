@@ -1,6 +1,6 @@
 package br.com.cursoOO;
 
-public class Quadrado implements AreaCalculavel{
+public class Quadrado {
 
     double lado;
     public Quadrado(double lado) {
@@ -8,8 +8,4 @@ public class Quadrado implements AreaCalculavel{
     }
 
 
-    @Override
-    public double calculaArea() {
-        return lado * lado;
-    }
 }
