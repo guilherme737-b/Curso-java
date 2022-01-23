@@ -22,14 +22,12 @@ public class DividePorZero {
          System.out.println("O resultado é: " + a / b);
          continua = false;
      }
-     catch (InputMismatchException e1){
-         System.err.println("Numeros deve ser inteiros ");
+     catch (InputMismatchException | ArithmeticException e1){
+         System.err.println("Favor digitar numeros validos para divisão(Numeros inteiros ");
+         e1.printStackTrace();
          s.nextLine();
      }
-     catch (ArithmeticException e2){
-         System.err.println("Divisor deve ser diferente de ZERO");
-         s.nextLine();
-     }
+
      finally {
          System.out.println("Finally foi execultado");
      }
