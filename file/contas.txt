@@ -1,0 +1,4 @@
+Ricardo;100000.0
+Lawrence;1090000.0
+Guilherme;1.0212E7
+Pedro;412000.0
