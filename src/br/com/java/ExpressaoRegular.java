@@ -52,7 +52,7 @@ public class ExpressaoRegular {
 
         re = "(www.guilherme.com.br)/(\\w{2,})-(\\d{4}).html";
 
-       r = url.replaceAll(re,"http://$1/$3/$2.jsp");
+       r = url.replaceAll(re,"http://$1/$3/$2.jsp"); // metodo para substituir uma String
        System.out.println(r);
        System.out.println(url);
 
